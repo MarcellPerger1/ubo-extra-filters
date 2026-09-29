@@ -1,8 +1,12 @@
 ! Title: Main always-on filter list for annoyance-blocking (paywalls/cookiewalls)
 
+! Block cookiewall on pcworld
 www.pcworld.com###sp_message_container_1477657
 www.pcworld.com##+js(rc, sp-message-open, .sp-message-open, stay)
 
+! Show all reviews etc. on glassdoor without paywall/contribution-wall (account still required though)
+! (This works because the fools send all the data to the client - I love when websites do this, it's
+!  so easy to exploit, doesn't even need archive.org or similar)
 www.glassdoor.co.uk##div.BlurredOverlay_overlay__LoBsE
 www.glassdoor.co.uk##div.BlurredContent_sm__eeMJq.BlurredContent_blurred__54dYx:style(filter: none !important; user-select: unset !important; pointer-events: unset !important;)
 www.glassdoor.co.uk##.EmployerResponse_textStyle__X4YVX.TruncatedText_truncate__LqAWs:style(--limit: unset !important;)
