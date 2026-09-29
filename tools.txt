@@ -1,0 +1,6 @@
+! Title: Tools that you may or may not want but are useful for my very specific purposes
+
+! For my personal spreadsheet, makes copy-paste work really well from this website into excel
+app.the-trackr.com##trackr-tracker-row.contents:not(tr:has(i.fa.fa-minus) ~ trackr-tracker-row.contents) tr.border :is(td, span):style(user-select: none !important; -webkit-user-select: none !important;)
+app.the-trackr.com##table.table.w-full td div.flex-row span.font-medium.select-none:style(user-select: text !important;)
+app.the-trackr.com##table.table.w-full.table-auto .border.border-dashed.border-teal-300.font-medium.text-teal-400.select-none:style(user-select: none !important;)
