@@ -10,3 +10,4 @@ www.pcworld.com##+js(rc, sp-message-open, .sp-message-open, stay)
 www.glassdoor.co.uk##div.BlurredOverlay_overlay__LoBsE
 www.glassdoor.co.uk##div.BlurredContent_sm__eeMJq.BlurredContent_blurred__54dYx:style(filter: none !important; user-select: unset !important; pointer-events: unset !important;)
 www.glassdoor.co.uk##.EmployerResponse_textStyle__X4YVX.TruncatedText_truncate__LqAWs:style(--limit: unset !important;)
+www.glassdoor.co.uk##div.SalaryItem_blurredContent__ELMeR:style(filter: unset !important;)
